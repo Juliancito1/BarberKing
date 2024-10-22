@@ -21,7 +21,7 @@ const Menu = () => {
             <Link to={'/'} className="nav-link btn rounded-pill">
               Inicio
             </Link>
-            <Link to={'/servicios'} className="nav-link btn rounded-pill mx-2">Nuestros Servicios</Link>
+            <Link to={'/servicios'} className="nav-link btn rounded-pill my-2 my-lg-0 mx-lg-2">Nuestros Servicios</Link>
             <Link to={'/ingresar'} className="nav-link btn rounded-pill">Ingresar</Link>
           </Nav>
         </Navbar.Collapse>
