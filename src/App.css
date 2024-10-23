@@ -1,11 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+}
+
+h1:hover, h2:hover, h3:hover {
+  color: #d4af37;
 }
 
 .mainSection{
   flex-grow: 1;
+}
+
+.fondo{
+  background-image: url(./img/Fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .logo{
@@ -38,4 +56,16 @@
   width: 100%;
   object-fit:cover;
   object-position: center;
+}
+
+.btn-dark {
+  transition: transform 0.2s ease;
+}
+
+.btn-dark:hover {
+  transform: scale(1.1);
+}
+
+.fondoArticulo{
+  background-color: rgba(0, 0, 0, 0.582)
 }
