@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../components/Banner";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -34,7 +35,7 @@ const Home = () => {
         </div>
         <div className="text-center my-5">
         <h3 className="text-center">No esperes mas gestiona tu turno YA!!!</h3>
-        <Button className="btn-dark rounded-pill mb-5 fs-4">Gestionar Turno</Button>
+        <Link className="btn btn-dark rounded-pill mb-5 fs-4">Gestionar Turno</Link>
         </div>
       </article>
     </section>
