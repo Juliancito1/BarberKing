@@ -73,11 +73,11 @@ const LoginForm = () => {
           <Button type="submit">Ingresar</Button>
         </div>
         <h6>
-          ¿Olvidaste tu contraseña?{" "}
+          ¿Olvidaste tu contraseña?
           <Link className="text-decoration-none">Haz Click Aqui</Link>
         </h6>
         <h6>
-          ¿No tienes una cuenta?{" "}
+          ¿No tienes una cuenta?
           <Link className="text-decoration-none">Registrate Aqui</Link>
         </h6>
       </Form>
