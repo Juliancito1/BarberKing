@@ -21,6 +21,7 @@ const LoginForm = () => {
         className="fondoArticulo text-light p-3 rounded-5"
         onSubmit={handleSubmit(login)}
       >
+        <h2 className="text-light">Login</h2>
         <Form.Group className="mb-3">
           <Form.Label className="fs-5">Nombre y Apellido</Form.Label>
           <Form.Control
@@ -78,7 +79,7 @@ const LoginForm = () => {
         </h6>
         <h6>
           ¿No tienes una cuenta?
-          <Link className="text-decoration-none">Registrate Aqui</Link>
+          <Link to={'/registrarse'} className="text-decoration-none">Registrate Aqui</Link>
         </h6>
       </Form>
     </section>
