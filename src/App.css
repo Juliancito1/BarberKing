@@ -3,7 +3,7 @@
 #root {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6{
   font-weight: bold;
 }
 
-h1:hover, h2:hover, h3:hover {
+h1:hover, h2:hover, h3:hover, p:hover {
   color: #d4af37;
 }
 
